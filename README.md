@@ -1,8 +1,7 @@
 # Very short description of the package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/avidian/socialite-spa.svg?style=flat-square)](https://packagist.org/packages/avidian/socialite-spa)
-[![Total Downloads](https://img.shields.io/packagist/dt/avidian/socialite-spa.svg?style=flat-square)](https://packagist.org/packages/avidian/socialite-spa)
-![GitHub Actions](https://github.com/avidian/socialite-spa/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/avidianity/socialite-spa.svg?style=flat-square)](https://packagist.org/packages/avidianity/socialite-spa)
+[![Total Downloads](https://img.shields.io/packagist/dt/avidianity/socialite-spa.svg?style=flat-square)](https://packagist.org/packages/avidianity/socialite-spa)
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
@@ -11,7 +10,7 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require avidian/socialite-spa
+composer require avidianity/socialite-spa
 ```
 
 ## Usage
@@ -40,7 +39,7 @@ If you discover any security related issues, please email manlupigjohnmichael@gm
 
 ## Credits
 
--   [John Michael Manlupig](https://github.com/avidian)
+-   [John Michael Manlupig](https://github.com/avidianity)
 -   [All Contributors](../../contributors)
 
 ## License
