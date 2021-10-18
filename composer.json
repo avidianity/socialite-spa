@@ -1,0 +1,53 @@
+{
+	"name": "avidianity/socialite-spa",
+	"description": "A Socialite wrapper for handling authentication on the frontend.",
+	"keywords": [
+		"socialite-spa"
+	],
+	"homepage": "https://github.com/avidianity/socialite-spa",
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "John Michael Manlupig",
+			"email": "manlupigjohnmichael@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.4|^8.0",
+		"illuminate/support": "^8.0",
+		"laravel/socialite": "^5.2"
+	},
+	"require-dev": {
+		"orchestra/testbench": "^6.0",
+		"phpunit/phpunit": "^9.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Avidianity\\SocialiteSpa\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Avidianity\\SocialiteSpa\\Tests\\": "tests"
+		}
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit",
+		"test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Avidianity\\SocialiteSpa\\SocialiteSpaServiceProvider"
+			],
+			"aliases": {
+				"SocialiteSpa": "Avidianity\\SocialiteSpa\\SocialiteSpaFacade"
+			}
+		}
+	}
+}
